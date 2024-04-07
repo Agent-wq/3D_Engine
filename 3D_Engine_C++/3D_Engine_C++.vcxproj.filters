@@ -52,4 +52,9 @@
     <None Include="src\shader.vs" />
     <None Include="src\shader.fs" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
