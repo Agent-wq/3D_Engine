@@ -43,11 +43,8 @@ int main()
         return -1;
     }
 
-    // build and compile our shader program
-    float offset = 0.5f;
+    // build and compile our shader 
     Shader ourShader("src/shader.vs", "src/shader.fs");
-    ourShader.setFloat("x0ffset", offset);
-
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
