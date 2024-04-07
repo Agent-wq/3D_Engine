@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\imageLoader.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +143,7 @@
     <ClInclude Include="dependencies\include\GLFW\glfw3native.h" />
     <ClInclude Include="dependencies\include\KHR\khrplatform.h" />
     <ClInclude Include="dependencies\include\shader.h" />
+    <ClInclude Include="dependencies\include\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="dependencies\lib\glfw3.lib" />
